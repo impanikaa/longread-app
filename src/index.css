@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Roboto Medium";
+  src: local("Roboto Medium"),
+    url("./data/fonts/Roboto-Medium.ttf") format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Roboto Light";
+  src: local("Roboto Light"),
+    url("./data/fonts/Roboto-Light.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: local("Roboto Regular"),
+    url("./data/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Condensed Regular";
+  src: local("Roboto Condensed Regular"),
+    url("./data/fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Slab Medium";
+  src: local("Roboto Slab Medium"),
+    url("./data/fonts/RobotoSlab-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Slab Regular";
+  src: local("Roboto Slab Regular"),
+    url("./data/fonts/RobotoSlab-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 2.5vh;
+  line-height: 140%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1vh; /* Расстояние между абзацами */
+}
+
+.navlinks {
+  font-family: 'Roboto Condensed Medium', sans-serif;
+  font-size: 3vh;
+  line-height: normal;
+}
+
+h1 {
+  font-family: 'Roboto Slab Regular', sans-serif;
+  font-size: 6vh;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 4.5vh;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Roboto Slab Regular', sans-serif;
+  font-size: 3vh;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  border-radius: 1vh;
+  padding: 2vh 2vh;
+  background: #FFAA24;
+  transition: 0.15s;
+  border: 1px solid #FFAA24;
+  font-size: 2vh;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+button:hover {
+  color: #000000;
+  transform: translate(-0.25rem, -0.25rem);
+  background: #fff;
+  box-shadow: 0.25rem 0.25rem #000;
+  border: 1px solid #000;
+}
+
+button:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 2vh;
+  }
+  h1 {
+    font-size: 5vh;
+    line-height: 110%;
+  }
+  
+  h2 {
+    font-size: 4vh;
+    line-height: 110%;
+  }
+  
+  h3 {
+    font-size: 2.5vh;
+    line-height: 110%;
+  }
+
+  button {
+    font-size: 1.5vh;
+  }
 }

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import './data/fonts/Roboto-Medium.ttf'
+import './data/fonts/Roboto-Light.ttf'
+import './data/fonts/Roboto-Regular.ttf'
+import './data/fonts/RobotoCondensed-Regular.ttf'
+import './data/fonts/RobotoSlab-Medium.ttf'
+import './data/fonts/RobotoSlab-Regular.ttf'
+import Header from './components/header';
+import Main from './components/main';
+import Footer from './components/footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <Main></Main>
+      <Footer></Footer>
     </div>
   );
 }
