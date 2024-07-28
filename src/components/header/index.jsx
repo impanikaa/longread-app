@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './style.module.css';
 import { Link } from 'react-router-dom';
-import logoImage from '../../data/header_footer/Logo.png';
+import logoImage from '../../data/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,11 +27,9 @@ const Header = () => {
         </label>
         <nav className={`${styles.navbarLinks} ${isMenuOpen ? styles.open : ''}`}>
           <Link to='/' className={styles.links} onClick={() => setIsMenuOpen(false)}>Главная</Link>
-          <Link to='/lost' className={styles.links} onClick={() => setIsMenuOpen(false)}>ФИПИ</Link>
-          <Link to='/lost' className={styles.links} onClick={() => setIsMenuOpen(false)}>Об экзамене</Link>
-          <Link to='/experimental-task' className={styles.links} onClick={() => setIsMenuOpen(false)}>Задание №17</Link>
-          <Link to='/resources' className={styles.links} onClick={() => setIsMenuOpen(false)}>Ресурсы</Link>
-          <Link to='/lost' className={styles.links} onClick={() => setIsMenuOpen(false)}>О сайте</Link>
+          <Link to='/psychology' className={styles.links} onClick={() => setIsMenuOpen(false)}>Сеанс у психолога</Link>
+          <Link to='/help' className={styles.links} onClick={() => setIsMenuOpen(false)}>Помощь друга</Link>
+          <Link to='/about' className={styles.links} onClick={() => setIsMenuOpen(false)}>О проекте</Link>
         </nav>
       </div>
       </div>

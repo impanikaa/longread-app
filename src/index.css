@@ -1,88 +1,115 @@
 @font-face {
-  font-family: "Roboto Medium";
-  src: local("Roboto Medium"),
-    url("./data/fonts/Roboto-Medium.ttf") format("truetype");
+  font-family: "CormorantGaramond-Bold";
+  src: local("CormorantGaramond-Bold"),
+    url("./data/fonts/CormorantGaramond-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Roboto Light";
-  src: local("Roboto Light"),
-    url("./data/fonts/Roboto-Light.ttf") format("truetype");
-}
-
-
-@font-face {
-  font-family: "Roboto Regular";
-  src: local("Roboto Regular"),
-    url("./data/fonts/Roboto-Regular.ttf") format("truetype");
+  font-family: "CormorantGaramond-BoldItalic";
+  src: local("CormorantGaramond-BoldItalic"),
+    url("./data/fonts/CormorantGaramond-BoldItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Roboto Condensed Regular";
-  src: local("Roboto Condensed Regular"),
-    url("./data/fonts/RobotoCondensed-Regular.ttf") format("truetype");
+  font-family: "CormorantGaramond-MediumItalic";
+  src: local("CormorantGaramond-MediumItalic"),
+    url("./data/fonts/CormorantGaramond-MediumItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Roboto Slab Medium";
-  src: local("Roboto Slab Medium"),
-    url("./data/fonts/RobotoSlab-Medium.ttf") format("truetype");
+  font-family: "CormorantGaramond-Italic";
+  src: local("CormorantGaramond-Italic"),
+    url("./data/fonts/CormorantGaramond-Italic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Roboto Slab Regular";
-  src: local("Roboto Slab Regular"),
-    url("./data/fonts/RobotoSlab-Regular.ttf") format("truetype");
+  font-family: "gilroy-bold";
+  src: local("gilroy-bold"),
+    url("./data/fonts/gilroy-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gilroy-semibold";
+  src: local("gilroy-semibold"),
+    url("./data/fonts/gilroy-semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gilroy-medium";
+  src: local("gilroy-medium"),
+    url("./data/fonts/gilroy-medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gilroy-regular";
+  src: local("gilroy-regular"),
+    url("./data/fonts/gilroy-regular.ttf") format("truetype");
 }
 
 body {
-  font-family: 'Roboto Regular', sans-serif;
+  font-family: 'gilroy-regular', sans-serif;
   font-size: 2.5vh;
-  line-height: 140%;
   margin: 0;
   padding: 0;
+  font-weight: 0;
+  color: #47414D;
+  background: url('./data/bg.png') no-repeat top center fixed;
+  background-size: cover;
 }
 
 p {
   margin-bottom: 1vh; /* Расстояние между абзацами */
 }
 
-.navlinks {
-  font-family: 'Roboto Condensed Medium', sans-serif;
+nav {
+  font-family: 'gilroy-semibold', sans-serif;
   font-size: 3vh;
+  color: #47414D;
   line-height: normal;
+  text-decoration: none;
+  display: flex;
 }
 
 h1 {
-  font-family: 'Roboto Slab Regular', sans-serif;
-  font-size: 6vh;
-  line-height: 120%;
+  font-family: 'gilroy-semibold', sans-serif;
+  font-size: 8vh;
   margin: 0;
   padding: 0;
+  color: #47414D;
 }
 
 h2 {
-  font-family: 'Roboto Regular', sans-serif;
+  font-family: 'CormorantGaramond-Italic', sans-serif;
   font-size: 4.5vh;
   margin: 0;
   padding: 0;
+  color: #47414D;
 }
 
 h3 {
-  font-family: 'Roboto Slab Regular', sans-serif;
+  font-family: 'gilroy-medium', sans-serif;
   font-size: 3vh;
   margin: 0;
   padding: 0;
+  color: #47414D;
+}
+
+h4 {
+  font-family: 'CormorantGaramond-MediumItalic', sans-serif;
+  font-size: 3vh;
+  margin: 0;
+  padding: 0;
+  color: #47414D;
 }
 
 button {
   color: #fff;
   cursor: pointer;
-  border-radius: 1vh;
+  border-radius: 10vh;
   padding: 2vh 2vh;
-  background: #FFAA24;
+  background: #9827DD;
   transition: 0.15s;
-  border: 1px solid #FFAA24;
+  border: 1px solid #9827DD;
   font-size: 2vh;
   width: fit-content;
   height: fit-content;

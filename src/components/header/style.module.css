@@ -1,23 +1,19 @@
 .links {
   display: flex;
-  color: #0D0D0D;
-  font-family: 'Roboto Condensed Regular', sans-serif;
-  font-size: 3vh;
-  line-height: normal;
   text-decoration: none;
+  color: #47414D;
 }
 
 .links:hover {
-  color: #4A3311;
+  color: #482D64;
 }
 
 .container {
-  background-color: #FFEEB1;
   height: 15vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 1000;
 }
@@ -30,14 +26,13 @@
   height: 15vh;
 }
 
-
 .logo {
-  width: 8vh;
-  height: 8vh;
+  width: 6vh;
+  height: 6vh;
 }
 
 .navbar {
-  width: 65vw;
+  width: 55vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,6 +44,7 @@
   align-items: center;
   justify-content: space-between;
   width: 65vw;
+  flex-grow: 1
 }
 
 .burger {
@@ -111,7 +107,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #FFEEB1;
+    background-color: #DACAE5;
     height: 100vh;
     width: 60vw; /* Ширина меню */
     display: flex;
