@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import Planet from '../../data/planet.png'
 import Help from '../../data/Help circle.png'
 import Heart from '../../data/Heart circle.png'
+import Ps1 from '../../data/psychologist1.jpg'
+import Ps2 from '../../data/psychologist2.jpg'
+import Ps3 from '../../data/psychologist3.jpg'
 
 function scrollToElement() {
     const element = document.getElementById('target-element');
@@ -52,6 +55,47 @@ const Home = () => {
                 <Link to='/help' className={styles.links}><button>Перейти</button></Link>
             </div>
             <img src={Heart}></img>
+        </div>
+
+        <div className={styles.container_psychologist}>
+            <h3>Психологи</h3>
+
+            <div className={styles.ps_block_1}>
+                <div className={styles.ps_block_a}>
+                    <div className={styles.ps_block_a_1}>Любовь Соломина</div>
+                    <div className={styles.ps_block_a_2}><a href='https://mors.center/solomina'>mors.center/solomina</a></div>
+                    <div className={styles.ps_block_a_3}>Педагог-психолог Школы ЦПМ, психолог команд по Географии и Экономике</div>
+                </div>
+                <div className={styles.ps_block_b_1}>Я опытный психолог, специализирующийся на работе с олимпиадниками. 
+                    На протяжении многих лет она помогает школьникам преодолевать психологические трудности, 
+                    связанные с участием в олимпиадах, и добиваться высоких результатов.</div>
+                <img src={Ps1} className={styles.ps_block_c}></img>
+            </div>
+
+            <div className={styles.ps_block_2}>
+                <div className={styles.ps_block_a}>
+                    <div className={styles.ps_block_a_1}>Георгий Гегенава</div>
+                    <div className={styles.ps_block_a_2}><a href='https://gegegeorgy.tilda.ws/'>gegegeorgy.tilda.ws</a></div>
+                    <div className={styles.ps_block_a_3}>Олимпиадный психолог текст текст текст текст текст текст текст</div>
+                </div>
+                <div className={styles.ps_block_b_2}>Я клинический психолог, использующий в работе интегративный подход, 
+                    включающий в себя техники из когнитивной, системно-семейной, клиент-центрированной терапий. 
+                    Уже более двух лет он сопровождает ребят на олимпиадах и выездных школах.</div>
+                <img src={Ps2} className={styles.ps_block_c}></img>
+            </div>
+
+            <div className={styles.ps_block_1}>
+                <div className={styles.ps_block_a}>
+                    <div className={styles.ps_block_a_1}>Поля Коноплева</div>
+                    <div className={styles.ps_block_a_2}><a href='https://t.me/poka_ne_psycholog'>tg channel</a></div>
+                    <div className={styles.ps_block_a_3}>Студентка 2-ого курса ОП «Психология» НИУ ВШЭ, вожатая ЛЭШ</div>
+                </div>
+                <div className={styles.ps_block_b_1}>Я помогу сделать первые шаги к решению проблем с пониманием родных, 
+                    сравнением себя с другими и трудностью с тем, чтобы влиться в олимпиадную тусовку. 
+                    Текст текст текст текст текст текст текст текст текст текст текст текст 
+                    текст текст текст текст текст текст</div>
+                <img src={Ps3} className={styles.ps_block_c}></img>
+            </div>
         </div>
 
         <div className={styles.container_gratitude}>
