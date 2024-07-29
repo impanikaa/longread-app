@@ -17,6 +17,24 @@
 }
 
 @font-face {
+  font-family: "CormorantGaramond-Medium";
+  src: local("CormorantGaramond-Medium"),
+    url("./data/fonts/CormorantGaramond-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CormorantGaramond-Light";
+  src: local("CormorantGaramond-Light"),
+    url("./data/fonts/CormorantGaramond-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CormorantGaramond-LightItalic";
+  src: local("CormorantGaramond-LightItalic"),
+    url("./data/fonts/CormorantGaramond-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "CormorantGaramond-Italic";
   src: local("CormorantGaramond-Italic"),
     url("./data/fonts/CormorantGaramond-Italic.ttf") format("truetype");
@@ -57,12 +75,12 @@ body {
   background-size: cover;
 }
 
-p {
-  margin-bottom: 1vh; /* Расстояние между абзацами */
+a {
+  color: #47414D;
 }
 
 nav {
-  font-family: 'gilroy-semibold', sans-serif;
+  font-family: 'gilroy-regular', sans-serif;
   font-size: 3vh;
   color: #47414D;
   line-height: normal;
@@ -79,7 +97,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'CormorantGaramond-Italic', sans-serif;
+  font-family: 'CormorantGaramond-LightItalic', sans-serif;
   font-size: 4.5vh;
   margin: 0;
   padding: 0;
@@ -97,6 +115,14 @@ h3 {
 h4 {
   font-family: 'CormorantGaramond-MediumItalic', sans-serif;
   font-size: 3vh;
+  margin: 0;
+  padding: 0;
+  color: #47414D;
+}
+
+h5 {
+  font-family: 'CormorantGaramond-Light', sans-serif;
+  font-size: 3.5vh;
   margin: 0;
   padding: 0;
   color: #47414D;
