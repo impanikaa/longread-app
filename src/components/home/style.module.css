@@ -75,7 +75,7 @@
     justify-content: space-between;
     align-items: center;
     height: auto;
-    margin-bottom: 7vh;
+    margin-bottom: 10vh;
     background-color: #fff;
     border: 1px solid #47414D;
     border-radius: 5vh;
@@ -131,18 +131,18 @@
 .description_text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 32vh;
+    /* justify-content: space-between; */
+    height: auto;
     text-align: left;
-    width: 50vw;
+    width: 55vw;
 }
 
 .container_description_1 img {
-    width: 15vw;
+    height: 15vw;
 }
 
 .container_description_2 img {
-    width: 15vw;
+    height: 15vw;
 }
     
 .description_text p {
@@ -153,12 +153,17 @@
 .description_text h2 {
     border: 1px solid #47414D;
     border-radius: 10vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
     padding-left: 2vw;
     display: inline-block;
     width: 25vw;
     position: relative;
+    margin-bottom: 2vh;
+}
+
+.description_text p {
+    margin-bottom: 2vh;
 }
 
 .description_text h2::after {
