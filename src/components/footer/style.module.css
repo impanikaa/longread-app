@@ -92,4 +92,8 @@
   .navbar_line {
     width: 30vw;
   }
+
+  .container {
+    height: 35vh;
+  }
 }
