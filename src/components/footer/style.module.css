@@ -78,7 +78,7 @@
 
 @media (max-width: 600px) {
   .links {
-    font-size: 1.8vh;
+    font-size: 1.5vh;
   }
 
   .line {
@@ -86,7 +86,7 @@
   }
 
   .text {
-    font-size: 1.8vh;
+    font-size: 1.5vh;
   }
 
   .navbar_line {
