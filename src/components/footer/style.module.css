@@ -78,14 +78,18 @@
 
 @media (max-width: 600px) {
   .links {
-    font-size: 2.2vh;
+    font-size: 1.8vh;
   }
 
-  .logo {
-    width: 10vw;
+  .line {
+    height: 10vh;
   }
 
   .text {
-    font-size: 1.5vh;
+    font-size: 1.8vh;
+  }
+
+  .navbar_line {
+    width: 30vw;
   }
 }

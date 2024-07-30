@@ -46,7 +46,6 @@
     padding-bottom: 1.5vh;
     padding-left: 3vw;
     display: inline-block;
-    height: 9vh;
     width: 32vw;
     position: relative;
   }
@@ -262,8 +261,16 @@
     align-items: center;
 }
 
-.ps_block_c {
+.ps_block_c_1 {
     width: 15%;
+    height: auto;
+    border-radius: 5vh;
+    border: 1px solid #47414D;
+}
+
+.ps_block_c_2 {
+    width: 15%;
+    height: auto;
     border-radius: 5vh;
     border: 1px solid #47414D;
 }
@@ -298,6 +305,7 @@
     .container_main {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 10vh;
     }
 
     .container_main img {
@@ -308,5 +316,144 @@
 
     .main_text {
         width: 75vw;
+        align-items: end;
+    }
+
+    .main_text h1 {
+        width: 40vw;
+        padding-right: 4vw;
+        text-align: end;
+    }
+
+    .container_about {
+        margin-bottom: 5vh;
+    }
+
+    .container_about ::after {
+        right: 5vw;
+        top: -1%;
+        width: 4vw;
+        height: 4vw;
+      }
+
+    .about_text {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .container_description_1 {
+        flex-direction: column-reverse;
+        margin-bottom: 5vh;
+        align-items: start;
+    }
+
+    .container_description_2 {
+        flex-direction: column-reverse;
+        margin-bottom: 5vh;
+        align-items: start;
+    }
+
+    .container_description_1 img {
+        height: auto;
+        width: 30%;
+        margin-bottom: 3vh;
+    }
+    
+    .container_description_2 img {
+        height: auto;
+        width: 30%;
+        margin-bottom: 3vh;
+    }
+
+    .description_text {
+        width: 100%;
+    }
+
+    .description_text h2 {
+        width: auto;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .description_text h2::after {
+        content: "";
+        position: absolute;
+        right: 2vw;
+        top: 8%;
+        width: 3vw;
+        height: 3vw;
+      }
+
+    .container_psychologist {
+        margin-bottom: 5vh;
+    }
+
+    .container_psychologist h3 {
+        margin-bottom: 0;
+    }
+    
+    .ps_block_1 {
+        flex-direction: column;
+    }
+
+    .ps_block_2 {
+        flex-direction: column;
+    }
+
+    .ps_block_a {
+        width: 100%;
+    }
+
+    .ps_block_a_1 {
+        margin-bottom: 1.5vh;
+        padding: 2vh 4vw;
+    }
+
+    .ps_block_a_2 {
+        margin-bottom: 1.5vh;
+        padding: 1vh 4vw;
+    }
+
+    .ps_block_a_3 {
+        margin-bottom: 1.5vh;
+        border-radius: 3vh;
+        padding: 1vh 4vw;
+    }
+
+    .ps_block_b_1 {
+        width: 100%;
+        margin-bottom: 1.5vh;
+        border-radius: 3vh 3vh 0 3vh;
+        padding: 0;
+    }
+
+    .ps_block_b_2 {
+        width: 100%;
+        margin-bottom: 1.5vh;
+        border-radius: 3vh 3vh 3vh 0;
+        padding: 0;
+    }
+
+    .text_b {
+        padding: 1vh 4vw;
+    }
+
+    .ps_block_c_1 {
+        width: 30%;
+        align-self: self-end;
+        border-radius: 3vh;
+    }
+
+    .ps_block_c_2 {
+        width: 30%;
+        border-radius: 3vh;
+    }
+
+    .container_gratitude {
+        margin-bottom: 2vh;
     }
 }
