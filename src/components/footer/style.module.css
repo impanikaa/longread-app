@@ -59,7 +59,7 @@
 
 .text_logo {
   position: relative;
-  height: 25vh;
+  height: 20vh;
   text-align: right;
   align-items: flex-end;
   width: auto;
@@ -95,5 +95,13 @@
 
   .container {
     height: 35vh;
+  }
+
+  .navbar {
+    height: 15vh;
+  }
+
+  .text_logo {
+    height: 15vh;
   }
 }
