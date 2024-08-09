@@ -46,7 +46,7 @@
     padding-bottom: 1.5vh;
     padding-left: 4vw;
     display: inline-block;
-    width: 35vw;
+    width: 45vw;
     position: relative;
   }
 
@@ -324,7 +324,7 @@
     }
 
     .main_text h1 {
-        width: 40vw;
+        width: 50vw;
         padding-right: 6vw;
         text-align: end;
     }
