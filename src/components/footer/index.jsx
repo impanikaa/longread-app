@@ -20,7 +20,7 @@ const Footer = () => {
         <p className={styles.text}>По всем вопросам:</p>
         <p className={styles.text}><a href='https://t.me/ma_yakhricheva'>https://t.me/ma_yakhricheva</a></p>
         </div>
-        <p className={styles.text}>Очень крутой слоган</p>
+        <p className={styles.text}>Поботали, можно и поболтать</p>
         </div>
       </div>
     </div>

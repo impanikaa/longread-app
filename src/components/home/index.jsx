@@ -7,19 +7,14 @@ import Ps1 from '../../data/psychologist1.jpg'
 import Ps2 from '../../data/psychologist2.jpg'
 import Ps3 from '../../data/psychologist3.jpg'
 
-function scrollToElement() {
-    const element = document.getElementById('target-element');
-    element.scrollIntoView({ behavior: 'smooth' });
-  }
-
 const Home = () => {
     return (
     <div className={styles.container}>
         
         <div className={styles.container_main}>
             <div className={styles.main_text}>
-                <div className={styles.outline}><h1>Лонгрид</h1></div>
-                <h2 style={{ textAlign: 'right' }}>с заботой о психологическом здоровье олимпидаников</h2>
+                <div className={styles.outline}><h1><span className={styles.highlight}>Забота</span>ть</h1></div>
+                <h2 style={{ textAlign: 'right' }}>о психологическом здоровье<br/> олимпидаников</h2>
             </div>
             <img src={Planet}></img>
         </div>

@@ -1,7 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import styles from './style.module.css';
 import Home from '../home';
-import Lost from '../lost';
+import Lost from '../lost'
+import About from '../about';
 
 const Main = () => {
     return (
@@ -11,7 +12,7 @@ const Main = () => {
                 <Route path="/lost" element={<Lost />} />
                 <Route path="/psychology" element={<Lost />} />
                 <Route path="/help" element={<Lost />} />
-                <Route path="/about" element={<Lost />} />
+                <Route path="/about" element={<About />} />
             </Routes>
         </div>
     );
