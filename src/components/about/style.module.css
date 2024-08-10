@@ -504,7 +504,8 @@
     }
 
     .cr_1 img {
-        height: 25vh;
+        height: auto;
+        width: 35%;
     }
 
     .cr_1_text {
@@ -565,7 +566,7 @@
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 500px) {
     .links_block {
         padding: 1.5vh 6vw;
     }
@@ -594,6 +595,7 @@
 
     .cr_1 img {
         height: 25vh;
+        width: auto;
         margin-right: 0;
         margin-bottom: 2vh;
     }
