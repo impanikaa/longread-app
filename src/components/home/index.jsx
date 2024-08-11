@@ -45,8 +45,8 @@ const Home = () => {
         <div className={styles.container_description_2}>
             <div className={styles.description_text}>
                 <div className={styles.outline}><h2>Помощь друга</h2></div>
-                <p>В случае, если распространенных проблем будет больше 16, я запущу еще одну гугл-форму, но уже для того, 
-                    чтобы советы давали друг другу сами олимпиадники, и результаты так же опубликую в лонгриде.</p>
+                <p>Многие олимпиадники сталкиваются с тревожностью, которая сильно мешает им ботать. 
+                    В этой статье мы собрали 6 видов тревожности и рекомендации по борьбе с ней от других олимпиадников.</p>
                 <Link to='/help' className={styles.links}><button>Перейти</button></Link>
             </div>
             <img src={Heart}></img>
@@ -95,9 +95,9 @@ const Home = () => {
 
         <div className={styles.container_gratitude}>
             <div className={styles.gratitude_text}>
-            <h5>Выражаем благодарность <a href='https://t.me/oooooootschet'>Олимпиадному Отсчёту</a>, <a href='https://vk.com/ezhovunion'>Ежовцам</a></h5>
-            <h5>и другим авторам тг-каналов, поддержавшим наш проект!</h5>
-            <h5>Спасибо всем, кто заполнил форму и доверил нам свою проблему.</h5>
+            <p>Выражаем благодарность <a href='https://t.me/oooooootschet'>Олимпиадному Отсчёту</a>, <a href='https://vk.com/ezhovunion'>Ежовцам</a><br/>
+            и другим авторам тг-каналов, поддержавшим наш проект!</p>
+            <p>Спасибо всем, кто заполнил форму и доверил нам свою проблему.</p>
             </div>
         </div>
 

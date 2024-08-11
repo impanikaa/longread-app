@@ -294,14 +294,16 @@
 }
 
 .gratitude_text {
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     padding-left: 4vw;
     padding-right: 4vw;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 
