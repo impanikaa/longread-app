@@ -3,6 +3,7 @@ import styles from './style.module.css';
 import Home from '../home';
 import Lost from '../lost'
 import About from '../about';
+import Psychology from '../psychology';
 
 const Main = () => {
     return (
@@ -10,7 +11,7 @@ const Main = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/lost" element={<Lost />} />
-                <Route path="/psychology" element={<Lost />} />
+                <Route path="/psychology" element={<Psychology />} />
                 <Route path="/help" element={<Lost />} />
                 <Route path="/about" element={<About />} />
             </Routes>
