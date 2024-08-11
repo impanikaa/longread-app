@@ -3,6 +3,15 @@ import styles from './style.module.css';
 import Help from '../../data/Help circle.png';
 import data from './data.json';
 
+const convertNewLinesToBr = (text) => {
+    return text.split('\n').map((item, index) => (
+        <React.Fragment key={index}>
+            {item}
+            <br />
+        </React.Fragment>
+    ));
+};
+
 const Psychology = () => {
     const [selectedTopic, setSelectedTopic] = useState(null);
 
@@ -36,7 +45,7 @@ const Psychology = () => {
                 <div className={styles.solution_container}>
                     <h3>{selectedTopic.topic}</h3>
                     <h2>Описание проблемы</h2>
-                    <p>{selectedTopic.description}</p>
+                    <p>{convertNewLinesToBr(selectedTopic.description)}</p>
                     <h2>Ответ</h2>
                     <p>{selectedTopic.solution}</p>
                 </div>

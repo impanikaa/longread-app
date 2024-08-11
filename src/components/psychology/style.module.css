@@ -69,7 +69,7 @@
 
 .container_questions {
     display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
     height: auto;
     width: 100%;
     gap: 1vw;
@@ -147,7 +147,12 @@
         text-align: end;
     }
 
-    .container_questions {
-        margin-bottom: 5vh;
+    .question_topic {
+        padding: 1vh 3vw;
+        font-size: 1.7vh;
+    }
+
+    .solution_container {
+        margin-top: 5vh;
     }
 }
