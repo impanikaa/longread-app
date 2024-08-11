@@ -331,6 +331,12 @@
         text-align: end;
     }
 
+    .main_text h1::after {
+        right: 6vw;
+        width: 4vw;
+        height: 4vw;
+      }
+
     .container_about {
         margin-bottom: 5vh;
     }
