@@ -7,7 +7,7 @@ const convertNewLinesToBr = (text) => {
     return text.split('\n').map((item, index) => (
         <React.Fragment key={index}>
             {item}
-            <br />
+            <br /><br />
         </React.Fragment>
     ));
 };
