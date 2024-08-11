@@ -160,4 +160,8 @@
     .solution_container h3 {
         margin-bottom: 3vh;
     }
+
+    .solution_container p {
+        margin-bottom: 1vh;
+    }
 }
