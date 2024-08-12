@@ -105,7 +105,7 @@ const Home = () => {
                         <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
                         <p>Описание описание описание описание описание</p>
                         <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
                     </div>
                 </div>
                 <div className={styles.person}>
@@ -115,7 +115,7 @@ const Home = () => {
                         <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
                         <p>Описание описание описание описание описание</p>
                         <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
                     </div>
                 </div>
                 <div className={styles.person}>
@@ -125,7 +125,7 @@ const Home = () => {
                         <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
                         <p>Описание описание описание описание описание</p>
                         <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
                     </div>
                 </div>
                 <div className={styles.person}>
@@ -135,7 +135,7 @@ const Home = () => {
                         <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
                         <p>Описание описание описание описание описание</p>
                         <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@ const Home = () => {
                         <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
                         <p>Описание описание описание описание описание</p>
                         <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
                     </div>
                 </div>
                 <div className={styles.person}>
@@ -161,7 +161,7 @@ const Home = () => {
                         <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
                         <p>Описание описание описание описание описание</p>
                         <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
                     </div>
                 </div>
                 <div className={styles.person}>
@@ -171,7 +171,7 @@ const Home = () => {
                         <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
                         <p>Описание описание описание описание описание</p>
                         <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
                     </div>
                 </div>
                 <div className={styles.person}>
@@ -181,7 +181,7 @@ const Home = () => {
                         <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
                         <p>Описание описание описание описание описание</p>
                         <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
                     </div>
                 </div>
             </div>
