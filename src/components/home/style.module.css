@@ -279,6 +279,65 @@
     border: 1px solid #47414D;
 }
 
+.container_people {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.container_people h3 {
+    margin-bottom: 7vh;
+}
+
+.people_block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.person img {
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 2vh;
+}
+
+.person_text {
+    text-align: center;
+}
+
+.person_subject {
+    font-size: 2vh;
+    color: #666;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.person_text a {
+  display: block;
+  margin-top: 1vh;
+  font-size: 2.5vh;
+  color: #9827DD;
+  text-decoration: none;
+}
+
+.person_text a:hover {
+  text-decoration: underline;
+}
+
 .container_gratitude {
     position: relative;
     height: auto;
@@ -464,6 +523,10 @@
         width: 30%;
         border-radius: 3vh;
     }
+
+    .person_text a {
+        font-size: 2vh;
+      }
 
     .container_gratitude {
         margin-bottom: 2vh;

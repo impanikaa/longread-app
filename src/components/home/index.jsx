@@ -6,6 +6,8 @@ import Heart from '../../data/Heart circle.png'
 import Ps1 from '../../data/psychologist1.jpg'
 import Ps2 from '../../data/psychologist2.jpg'
 import Ps3 from '../../data/psychologist3.jpg'
+import Olymp1 from '../../data/olymp.jpg'
+import Teacher1 from '../../data/teacher.png'
 
 const Home = () => {
     return (
@@ -90,6 +92,98 @@ const Home = () => {
                     Текст текст текст текст текст текст текст текст текст текст текст текст
                     текст текст текст текст текст текст</p> </div>
                 <img src={Ps3} className={styles.ps_block_c_1}></img>
+            </div>
+        </div>
+
+        <div className={styles.container_people}>
+            <h3>Олимпиадники</h3>
+            <div className={styles.people_block}>
+                <div className={styles.person}>
+                    <img src={Olymp1}></img>
+                    <div className={styles.person_text}>
+                        <h2>Имя Фамилия</h2>
+                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
+                        <p>Описание описание описание описание описание</p>
+                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                    </div>
+                </div>
+                <div className={styles.person}>
+                    <img src={Olymp1}></img>
+                    <div className={styles.person_text}>
+                        <h2>Имя Фамилия</h2>
+                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
+                        <p>Описание описание описание описание описание</p>
+                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                    </div>
+                </div>
+                <div className={styles.person}>
+                    <img src={Olymp1}></img>
+                    <div className={styles.person_text}>
+                        <h2>Имя Фамилия</h2>
+                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
+                        <p>Описание описание описание описание описание</p>
+                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                    </div>
+                </div>
+                <div className={styles.person}>
+                    <img src={Olymp1}></img>
+                    <div className={styles.person_text}>
+                        <h2>Имя Фамилия</h2>
+                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
+                        <p>Описание описание описание описание описание</p>
+                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className={styles.container_people}>
+            <h3>Преподаватели</h3>
+            <div className={styles.people_block}>
+                <div className={styles.person}>
+                    <img src={Teacher1}></img>
+                    <div className={styles.person_text}>
+                        <h2>Имя Фамилия</h2>
+                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
+                        <p>Описание описание описание описание описание</p>
+                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                    </div>
+                </div>
+                <div className={styles.person}>
+                    <img src={Teacher1}></img>
+                    <div className={styles.person_text}>
+                        <h2>Имя Фамилия</h2>
+                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
+                        <p>Описание описание описание описание описание</p>
+                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                    </div>
+                </div>
+                <div className={styles.person}>
+                    <img src={Teacher1}></img>
+                    <div className={styles.person_text}>
+                        <h2>Имя Фамилия</h2>
+                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
+                        <p>Описание описание описание описание описание</p>
+                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                    </div>
+                </div>
+                <div className={styles.person}>
+                    <img src={Teacher1}></img>
+                    <div className={styles.person_text}>
+                        <h2>Имя Фамилия</h2>
+                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
+                        <p>Описание описание описание описание описание</p>
+                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel</a>
+                    </div>
+                </div>
             </div>
         </div>
 
