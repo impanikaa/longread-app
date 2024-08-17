@@ -46,8 +46,23 @@ const Psychology = () => {
                     <h3>{selectedTopic.topic}</h3>
                     <h2>Описание проблемы</h2>
                     <p>{convertNewLinesToBr(selectedTopic.description)}</p>
-                    <h2>Ответ</h2>
-                    <p>{selectedTopic.solution}</p>
+                    <h2>Ответы</h2>
+                    {selectedTopic.answers.map((answer, index) => (
+                        <div key={index} className={styles.answer}>
+                            <p>{convertNewLinesToBr(answer.text)}</p>
+                            <p className={styles.author}>— {answer.author}</p>
+                            {answer.contact && (
+                                <a href={answer.contact} target="_blank" rel="noopener noreferrer">
+                                    Контакт
+                                </a>
+                            )}
+                            {answer.tgChannel && (
+                                <a href={answer.tgChannel} target="_blank" rel="noopener noreferrer">
+                                    TG-Channel
+                                </a>
+                            )}
+                        </div>
+                    ))}
                 </div>
             )}
         </div>

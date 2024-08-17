@@ -124,6 +124,50 @@
     margin-bottom: 2vh;
 }
 
+.answers {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding-left: 2vw; /* Оставляем отступ слева для контента */
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out; /* Плавное скрытие и появление, включая отступы */
+  }
+  
+  .answers.visible {
+    max-height: 1000vh;
+    opacity: 1;
+    padding-left: 2vw; /* Отступ для видимого контента */
+  }
+  
+  .answer {
+    margin-top: 2vh;
+    border-left: 3px solid #9827DD; /* Линия слева вместо фона */
+    border-radius: 2.5vh;
+    padding: 2.5vh 2vw;
+  }
+  
+  .answer p {
+    margin: 0;
+    line-height: 140%;
+  }
+  
+  .author {
+    font-size: 2.5vh;
+    color: #666;
+    margin-top: 1vh;
+  }
+  
+  .answer a {
+    display: block;
+    margin-top: 1vh;
+    font-size: 2.5vh;
+    color: #9827DD;
+    text-decoration: none;
+  }
+  
+  .answer a:hover {
+    text-decoration: underline;
+  }
+
 @media (max-width: 600px) {
     .container_main {
         flex-direction: column;
@@ -170,4 +214,17 @@
     .solution_container p {
         margin-bottom: 1vh;
     }
+
+    .author {
+        font-size: 2vh;
+    }
+
+    .answer a {
+        font-size: 2vh;
+    }
+
+    .answer {
+        border-left: 2px solid #9827DD;
+        padding: 2vh 4vw;
+      }
 }
