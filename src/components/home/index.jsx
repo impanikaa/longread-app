@@ -6,6 +6,8 @@ import Heart from '../../data/Heart circle.png'
 import Ps1 from '../../data/psychologist1.jpg'
 import Ps2 from '../../data/psychologist2.jpg'
 import Ps3 from '../../data/psychologist3.jpg'
+import Nikita from '../../data/people/Nikita.png'
+import Tatiana from '../../data/people/Tatiana.png'
 import Olymp1 from '../../data/olymp.jpg'
 import Teacher1 from '../../data/teacher.png'
 
@@ -35,7 +37,7 @@ const Home = () => {
 
         <div className={styles.container_description_1}>
             <div className={styles.description_text}>
-                <div className={styles.outline}><h2>Cеанс у психолога</h2></div>
+                <div className={styles.outline}><h2>Инсайт</h2></div>
                 <p>Мы проанализировали ответы олимпиадников из формы и выбрали 16 наиболее распространенных 
                     проблем для обсуждения с психологами на Летней экономической школе, где нас поддержат 
                     Любовь Соломина и Георгий Гегенава – опытные психологи, работающие с олимпиадниками.</p>
@@ -59,39 +61,27 @@ const Home = () => {
 
             <div className={styles.ps_block_1}>
                 <div className={styles.ps_block_a}>
-                    <div className={styles.ps_block_a_1}>Любовь Соломина</div>
-                    <div className={styles.ps_block_a_2}><a href='https://mors.center/solomina'>mors.center/solomina</a></div>
-                    <div className={styles.ps_block_a_3}>Педагог-психолог Школы ЦПМ, психолог команд по Географии и Экономике</div>
-                </div>
-                <div className={styles.ps_block_b_1}><p className={styles.text_b}>Я опытный психолог, специализирующийся на работе с олимпиадниками. 
-                    На протяжении многих лет она помогает школьникам преодолевать психологические трудности, 
-                    связанные с участием в олимпиадах, и добиваться высоких результатов.</p> </div>
-                <img src={Ps1} className={styles.ps_block_c_1}></img>
-            </div>
-
-            <div className={styles.ps_block_2}>
-                <div className={styles.ps_block_a}>
                     <div className={styles.ps_block_a_1}>Георгий Гегенава</div>
                     <div className={styles.ps_block_a_2}><a href='https://gegegeorgy.tilda.ws/'>gegegeorgy.tilda.ws</a></div>
                     <div className={styles.ps_block_a_3}>Олимпиадный психолог текст текст текст текст текст текст текст</div>
                 </div>
-                <div className={styles.ps_block_b_2}><p className={styles.text_b}>Я клинический психолог, использующий в работе интегративный подход, 
+                <div className={styles.ps_block_b_1}><p className={styles.text_b}>Я клинический психолог, использующий в работе интегративный подход, 
                     включающий в себя техники из когнитивной, системно-семейной, клиент-центрированной терапий. 
                     Уже более двух лет он сопровождает ребят на олимпиадах и выездных школах.</p> </div>
-                <img src={Ps2} className={styles.ps_block_c_2}></img>
+                <img src={Ps2} className={styles.ps_block_c_1}></img>
             </div>
 
-            <div className={styles.ps_block_1}>
+            <div className={styles.ps_block_2}>
                 <div className={styles.ps_block_a}>
                     <div className={styles.ps_block_a_1}>Поля Коноплева</div>
                     <div className={styles.ps_block_a_2}><a href='https://t.me/poka_ne_psycholog'>tg channel</a></div>
                     <div className={styles.ps_block_a_3}>Студентка 2-ого курса ОП «Психология» НИУ ВШЭ, вожатая ЛЭШ</div>
                 </div>
-                <div className={styles.ps_block_b_1}><p className={styles.text_b}>Я помогу сделать первые шаги к решению проблем с пониманием родных, 
+                <div className={styles.ps_block_b_2}><p className={styles.text_b}>Я помогу сделать первые шаги к решению проблем с пониманием родных, 
                     сравнением себя с другими и трудностью с тем, чтобы влиться в олимпиадную тусовку. 
                     Текст текст текст текст текст текст текст текст текст текст текст текст
                     текст текст текст текст текст текст</p> </div>
-                <img src={Ps3} className={styles.ps_block_c_1}></img>
+                <img src={Ps3} className={styles.ps_block_c_2}></img>
             </div>
         </div>
 
@@ -145,23 +135,22 @@ const Home = () => {
             <h3>Преподаватели</h3>
             <div className={styles.people_block}>
                 <div className={styles.person}>
-                    <img src={Teacher1}></img>
+                    <img src={Nikita}></img>
                     <div className={styles.person_text}>
-                        <h2>Имя Фамилия</h2>
-                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
-                        <p>Описание описание описание описание описание</p>
-                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
+                        <h2>Никита Киселев</h2>
+                        <p className={styles.person_subject}>История</p>
+                        <p>Победитель ВСОШ по истории, ПиП перечневых олимпиад, преподаватель в "Кружке Станкевича"</p>
+                        <a href='https://stankevich.academy/' target="_blank" rel="noopener noreferrer">Курсы "Кружок Станкевича" (литература и история)</a>
                     </div>
                 </div>
                 <div className={styles.person}>
-                    <img src={Teacher1}></img>
+                    <img src={Tatiana}></img>
                     <div className={styles.person_text}>
-                        <h2>Имя Фамилия</h2>
-                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
-                        <p>Описание описание описание описание описание</p>
-                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
+                        <h2>Татьяна Завьялова</h2>
+                        <p className={styles.person_subject}>Математика, экономика</p>
+                        <p>Кандидат экономических наук, репетитор. Проходила стажировку в ОЦ Сириус на математической смене.</p>
+                        <a href='https://t.me/Zav_Tatiana' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='https://t.me/lite_math' target="_blank" rel="noopener noreferrer">TG-Channel - "Учится лёгким испугом"</a>
                     </div>
                 </div>
                 <div className={styles.person}>

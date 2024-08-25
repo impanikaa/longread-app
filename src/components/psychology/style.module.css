@@ -157,6 +157,11 @@
   }
   
   .answer a {
+    color: #9827DD;
+    text-decoration: none;
+  }
+
+  .link {
     display: block;
     margin-top: 1vh;
     font-size: 2.5vh;
@@ -219,7 +224,7 @@
         font-size: 2vh;
     }
 
-    .answer a {
+    .link {
         font-size: 2vh;
     }
 

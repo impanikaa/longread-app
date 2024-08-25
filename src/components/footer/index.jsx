@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.navbar_line}>
       <nav className={styles.navbar}>
         <Link to='/' className={styles.links}>На главную</Link>
-        <Link to='/psychology' className={styles.links}>Сеанс у психолога</Link>
+        <Link to='/psychology' className={styles.links}>Инсайт</Link>
         <Link to='/help' className={styles.links}>Помощь друга</Link>
         <Link to='/about' className={styles.links}>О проекте</Link>
       </nav>

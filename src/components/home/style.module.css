@@ -297,7 +297,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 
@@ -310,7 +310,8 @@
 }
 
 .person img {
-    width: 80%;
+    width: 12vw;
+    height: 12vw;
     border-radius: 50%;
     margin-bottom: 2vh;
 }

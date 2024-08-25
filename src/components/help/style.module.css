@@ -77,7 +77,7 @@
 }
 
 .problem {
-    width: 100%;
+  width: 100%;
   border-bottom: 1px solid #47414D; /* Цвет текста */
   padding: 5vh 0;
 }
@@ -95,7 +95,7 @@
 }
 
 .arrow {
-  margin-right: 3vw; /* Стрелочка слева */
+  margin-right: 2vw; /* Стрелочка слева */
   transition: transform 0.3s ease-in-out;
   display: flex;
   align-items: center;

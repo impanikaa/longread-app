@@ -3,10 +3,18 @@ import styles from './style.module.css';
 import Help from '../../data/Help circle.png';
 import data from './data.json';
 
+const formatText = (text) => {
+    const formattedText = text
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')  // Жирный текст
+        .replace(/__(.*?)__/g, '<em>$1</em>')             // Курсив
+        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>')  // Ссылки
+    return formattedText;
+};
+
 const convertNewLinesToBr = (text) => {
     return text.split('\n').map((item, index) => (
         <React.Fragment key={index}>
-            {item}
+            <span dangerouslySetInnerHTML={{ __html: formatText(item) }} />
             <br /><br />
         </React.Fragment>
     ));
@@ -49,15 +57,15 @@ const Psychology = () => {
                     <h2>Ответы</h2>
                     {selectedTopic.answers.map((answer, index) => (
                         <div key={index} className={styles.answer}>
-                            <p>{convertNewLinesToBr(answer.text)}</p>
+                            <p>{convertNewLinesToBr(formatText(answer.text))}</p>
                             <p className={styles.author}>— {answer.author}</p>
                             {answer.contact && (
-                                <a href={answer.contact} target="_blank" rel="noopener noreferrer">
+                                <a href={answer.contact} target="_blank" rel="noopener noreferrer" className={styles.link}>
                                     Контакт
                                 </a>
                             )}
                             {answer.tgChannel && (
-                                <a href={answer.tgChannel} target="_blank" rel="noopener noreferrer">
+                                <a href={answer.tgChannel} target="_blank" rel="noopener noreferrer" className={styles.link}>
                                     TG-Channel
                                 </a>
                             )}

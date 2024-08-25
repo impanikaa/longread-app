@@ -27,7 +27,7 @@ const Header = () => {
         </label>
         <nav className={`${styles.navbarLinks} ${isMenuOpen ? styles.open : ''}`}>
           <Link to='/' className={styles.links} onClick={() => setIsMenuOpen(false)}>Главная</Link>
-          <Link to='/psychology' className={styles.links} onClick={() => setIsMenuOpen(false)}>Сеанс у психолога</Link>
+          <Link to='/psychology' className={styles.links} onClick={() => setIsMenuOpen(false)}>Инсайт</Link>
           <Link to='/help' className={styles.links} onClick={() => setIsMenuOpen(false)}>Помощь друга</Link>
           <Link to='/about' className={styles.links} onClick={() => setIsMenuOpen(false)}>О проекте</Link>
         </nav>
