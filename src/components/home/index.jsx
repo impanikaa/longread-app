@@ -8,6 +8,7 @@ import Ps2 from '../../data/psychologist2.jpg'
 import Ps3 from '../../data/psychologist3.jpg'
 import Nikita from '../../data/people/Nikita.png'
 import Tatiana from '../../data/people/Tatiana.png'
+import Tamara from '../../data/people/Tamara1.png'
 import Olymp1 from '../../data/olymp.jpg'
 import Teacher1 from '../../data/teacher.png'
 
@@ -95,13 +96,13 @@ const Home = () => {
                     </div>
                 </div>
                 <div className={styles.person}>
-                    <img src={Olymp1}></img>
+                    <img src={Tamara}></img>
                     <div className={styles.person_text}>
-                        <h2>Имя Фамилия</h2>
-                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
-                        <p>Описание описание описание описание описание</p>
-                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
+                        <h2>Тамара Еремина</h2>
+                        <p className={styles.person_subject}>Право</p>
+                        <p>Дважды победитель ВсОШ по праву, ПиП перечневых олимпиад по праву</p>
+                        <a href='https://t.me/Ego_sum_causidicum' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='https://t.me/IL_TTO' target="_blank" rel="noopener noreferrer">TG-Channel - "Innovative Law | TTO"</a>
                     </div>
                 </div>
                 <div className={styles.person}>
