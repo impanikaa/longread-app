@@ -234,7 +234,6 @@
 .hs_1 img {
     height: auto;
     width: 15%;
-    border-radius: 5vh;
     object-fit: cover;
     object-position: center;
 }
@@ -587,14 +586,14 @@
     }
 
     .hs_1 img {
-        width: 100%;
-        height: 15vh;
+        width: 15%;
         margin-top: 2vh;
+        align-self: center;
     }
 
     .hs_2 img {
-        width: 100%;
-        height: 15vh;
+        width: 15%;
         margin-top: 2vh;
+        align-self: center;
     }
 }
