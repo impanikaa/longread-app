@@ -5,7 +5,12 @@ import Cr_1 from '../../data/about/Cr_1.png'
 import Cr_2 from '../../data/about/Cr_2.png'
 import Arrow_1 from '../../data/about/Arrow_1.png'
 import Arrow_2 from '../../data/about/Arrow_2.png'
-import Hs_1 from '../../data/about/Hs_1.jpg'
+import Hs_1 from '../../data/about/Hs_1.png'
+import Hs_2 from '../../data/about/Hs_2.png'
+import Hs_3 from '../../data/about/Hs_3.png'
+import Hs_4 from '../../data/about/Hs_4.png'
+import Hs_5 from '../../data/about/Hs_5.png'
+import Hs_6 from '../../data/about/Hs_6.png'
 
 function scrollToElement() {
     const element = document.getElementById('target-element');
@@ -75,9 +80,9 @@ const About = () => {
                     <div className={styles.hs_text}>
                         <div className={styles.hs_header}>
                             <h1>13.07</h1>
-                            <h2>Пришла идея</h2>
+                            <h2>Идея</h2>
                         </div>
-                        <p>Комментарий</p>
+                        <p>Маше <a href='https://t.me/princess_cpp/4049' target='_blank'>пришла мысль</a> создать лонгрид</p>
                     </div>
                     <img src={Hs_1}></img>
                 </div>
@@ -87,12 +92,12 @@ const About = () => {
                 <div className={styles.hs_2}>
                     <div className={styles.hs_text}>
                         <div className={styles.hs_header}>
-                            <h1>13.07</h1>
-                            <h2>Пришла идея</h2>
+                            <h1>15.07</h1>
+                            <h2>Расширение</h2>
                         </div>
-                        <p>Комментарий</p>
+                        <p>К проекту присоединилась Вероника с предложением сделать сайт для проекта</p>
                     </div>
-                    <img src={Hs_1}></img>
+                    <img src={Hs_2}></img>
                 </div>
 
                 <img src={Arrow_2}></img>
@@ -100,12 +105,50 @@ const About = () => {
                 <div className={styles.hs_1}>
                     <div className={styles.hs_text}>
                         <div className={styles.hs_header}>
-                            <h1>13.07</h1>
-                            <h2>Пришла идея</h2>
+                            <h1>27.07</h1>
+                            <h2>Конец приёма кейсов</h2>
                         </div>
-                        <p>Комментарий</p>
+                        <p>Форма для написания проблем закрыта, мы получили 109 ответов</p>
                     </div>
-                    <img src={Hs_1}></img>
+                    <img src={Hs_3}></img>
+                </div>
+
+                <img src={Arrow_1}></img>
+
+                <div className={styles.hs_2}>
+                    <div className={styles.hs_text}>
+                        <div className={styles.hs_header}>
+                            <h1>03.08 - 19.08</h1>
+                            <h2>Смена формата</h2>
+                        </div>
+                        <p>Мы начали сотрудничать не только с психологами, но и опытными олимпиадниками и преподавателями</p>
+                    </div>
+                    <img src={Hs_4}></img>
+                </div>
+
+                <img src={Arrow_2}></img>
+
+                <div className={styles.hs_1}>
+                    <div className={styles.hs_text}>
+                        <div className={styles.hs_header}>
+                            <h1>28.08</h1>
+                            <h2>Все материалы получены</h2>
+                        </div>
+                        <p>Получены и добавлены на сайт все ответы</p>
+                    </div>
+                    <img src={Hs_5}></img>
+                </div>
+
+                <img src={Arrow_1}></img>
+
+                <div className={styles.hs_2}>
+                    <div className={styles.hs_text}>
+                        <div className={styles.hs_header}>
+                            <h1>29.08 (чт), 16:00</h1>
+                            <h2>Проект опубликован!</h2>
+                        </div>
+                    </div>
+                    <img src={Hs_6}></img>
                 </div>
 
             </div>
