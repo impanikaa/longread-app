@@ -32,7 +32,7 @@
 }
 
 .navbar {
-  width: 55vw;
+  width: 50vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 65vw;
+  width: 50vw;
   flex-grow: 1
 }
 

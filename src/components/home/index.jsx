@@ -7,7 +7,8 @@ import Ps2 from '../../data/psychologist2.jpg'
 import Ps3 from '../../data/psychologist3.jpg'
 import Nikita from '../../data/people/Nikita.png'
 import Tatiana from '../../data/people/Tatiana.png'
-import Tamara from '../../data/people/Tamara1.png'
+import Tamara from '../../data/people/Tamara.png'
+import Melania from '../../data/people/Melania.png'
 import Olymp1 from '../../data/olymp.jpg'
 import Teacher1 from '../../data/teacher.png'
 
@@ -75,8 +76,9 @@ const Home = () => {
                     <div className={styles.ps_block_a_2}><a href='https://t.me/poka_ne_psycholog'>tg channel</a></div>
                     <div className={styles.ps_block_a_3}>Студентка 3-его курса ОП «Психология» НИУ ВШЭ, вожатая ЛЭШ</div>
                 </div>
-                <div className={styles.ps_block_b_2}><p className={styles.text_b}>Я помогу сделать первые шаги к решению проблем с пониманием родных, 
-                    сравнением себя с другими и трудностью с тем, чтобы влиться в олимпиадную тусовку.</p> </div>
+                <div className={styles.ps_block_b_2}><p className={styles.text_b}>Я могу помочь наставить на путь решения некоторых 
+                    твоих трудностей: как начать лучше понимать своих близких, перестать сравнивать себя с другими 
+                    и легче влиться в олимпиадную тусовку.</p> </div>
                 <img src={Ps3} className={styles.ps_block_c_2}></img>
             </div>
         </div>
@@ -85,13 +87,13 @@ const Home = () => {
             <h3>Олимпиадники</h3>
             <div className={styles.people_block}>
                 <div className={styles.person}>
-                    <img src={Olymp1}></img>
+                    <img src={Melania}></img>
                     <div className={styles.person_text}>
-                        <h2>Имя Фамилия</h2>
-                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
-                        <p>Описание описание описание описание описание</p>
-                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
+                        <h2>Меланья Ремета</h2>
+                        <p className={styles.person_subject}>Литература, искусство, итальянский язык</p>
+                        <p>Победитель ВСОШ по искусству и дважды призер по литературе</p>
+                        <a href='https://t.me/melagnese_pr' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='https://t.me/melagnese' target="_blank" rel="noopener noreferrer">TG-Channel - "Мелиссовый чай"</a>
                     </div>
                 </div>
                 <div className={styles.person}>

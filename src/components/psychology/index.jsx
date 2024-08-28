@@ -7,6 +7,7 @@ const formatText = (text) => {
     const formattedText = text
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')  // Жирный текст
         .replace(/__(.*?)__/g, '<em>$1</em>')             // Курсив
+        .replace(/\^\^(.*?)\^\^/g, '<u>$1</u>') 
         .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>')  // Ссылки
     return formattedText;
 };
