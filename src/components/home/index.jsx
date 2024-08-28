@@ -123,7 +123,7 @@ const Home = () => {
                     <div className={styles.person_text}>
                         <h2>Маргарита Кашапова</h2>
                         <p className={styles.person_subject}>Биология</p>
-                        <p>Призёр РЭ ВсОШ и Физтеха по биологии, поступила в НИУ ВШЭ на "Клеточную и молекулярную биотехнологию"</p>
+                        <p>Призёр РЭ ВсОШ и Физтеха по биологии, поступила в НИУ ВШЭ на "Клеточную и молекулярную биотехнологию", автор научно-популярного канала по биологии</p>
                         <a href='https://t.me/marg000t' target="_blank" rel="noopener noreferrer">Контакт</a>
                         <a href='https://t.me/biomarka' target="_blank" rel="noopener noreferrer">TG-Channel - "Биомарка"</a>
                     </div>
