@@ -535,15 +535,13 @@
     }
 
     .person {
-        flex-direction: row;
         width: 100%;
         margin-bottom: 3vh;
     }
 
     .person img {
         height: auto;
-        width: 20vw;
-        margin-right: 5vw;
+        width: 40%;
     }
 
     .person_text {
