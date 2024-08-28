@@ -11,8 +11,8 @@ import Tamara from '../../data/people/Tamara.png'
 import Melania from '../../data/people/Melania.png'
 import Egor from '../../data/people/Egor.png'
 import Vitaliy from '../../data/people/Vitaliy.png'
-import Olymp1 from '../../data/olymp.jpg'
-import Teacher1 from '../../data/teacher.png'
+import Nikolay from '../../data/people/Nikolay.png'
+import Margarita from '../../data/people/Margarita.png'
 
 const Home = () => {
     return (
@@ -119,13 +119,13 @@ const Home = () => {
                     </div>
                 </div>
                 <div className={styles.person}>
-                    <img src={Olymp1}></img>
+                    <img src={Margarita}></img>
                     <div className={styles.person_text}>
-                        <h2>Имя Фамилия</h2>
-                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
-                        <p>Описание описание описание описание описание</p>
-                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
+                        <h2>Маргарита Кашапова</h2>
+                        <p className={styles.person_subject}>Биология</p>
+                        <p>Призёр РЭ ВсОШ и Физтеха по биологии, поступила в НИУ ВШЭ на "Клеточную и молекулярную биотехнологию"</p>
+                        <a href='https://t.me/marg000t' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='https://t.me/biomarka' target="_blank" rel="noopener noreferrer">TG-Channel - "Биомарка"</a>
                     </div>
                 </div>
             </div>
@@ -158,20 +158,22 @@ const Home = () => {
                     <div className={styles.person_text}>
                         <h2>Виталий Буев</h2>
                         <p className={styles.person_subject}>Биология</p>
-                        <p>Руководитель олимпиадного проекта Атриум Биология</p>
-                        <a href='https://t.me/lazy_fern' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <p>Руководитель олимпиадного проекта Атриум | Биология</p>
+                        <a href='https://vk.com/lazy_fern' target="_blank" rel="noopener noreferrer">Контакт (ВК)</a>
+                        <a href='https://t.me/lazy_fern' target="_blank" rel="noopener noreferrer">Контакт (тг)</a>
                         <a href='https://t.me/lazy_plant' target="_blank" rel="noopener noreferrer">TG-Channel - "Ленивое растение"</a>
                         <a href='https://www.atriumolymp.com/' target="_blank" rel="noopener noreferrer">Курсы Атриума</a>
                     </div>
                 </div>
                 <div className={styles.person}>
-                    <img src={Teacher1}></img>
+                    <img src={Nikolay}></img>
                     <div className={styles.person_text}>
-                        <h2>Имя Фамилия</h2>
-                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
-                        <p>Описание описание описание описание описание</p>
-                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
+                        <h2>Николай Мещеряков</h2>
+                        <p className={styles.person_subject}>Химия</p>
+                        <p>Руководитель Атриум | Химия, руководитель олимпиадной подготовки в СУНЦ МГУ, преподаватель шЦПМ. Победитель ВсОШ</p>
+                        <a href='https://vk.com/moonnick' target="_blank" rel="noopener noreferrer">Контакт (ВК)</a>
+                        <a href='https://t.me/moon_nick' target="_blank" rel="noopener noreferrer">Контакт (тг)</a>
+                        <a href='https://t.me/mnv_msu' target="_blank" rel="noopener noreferrer">TG-Channel - "НВ пишет"</a>
                         <a href='https://www.atriumolymp.com/' target="_blank" rel="noopener noreferrer">Курсы Атриума</a>
                     </div>
                 </div>
