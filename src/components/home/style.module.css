@@ -462,7 +462,7 @@
       }
 
     .container_psychologist {
-        margin-bottom: 5vh;
+        margin-bottom: 8vh;
     }
 
     .container_psychologist h3 {
@@ -528,7 +528,7 @@
 
     .container_people {
         margin-bottom: o;
-        margin-top: 5vh;
+        margin-top: 3vh;
     }
 
     .container_people h3 {
@@ -565,6 +565,6 @@
       }
 
     .container_gratitude {
-        margin: 5vh 0;
+        margin: 3vh 0;
     }
 }
