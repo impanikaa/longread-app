@@ -9,6 +9,7 @@ import Nikita from '../../data/people/Nikita.png'
 import Tatiana from '../../data/people/Tatiana.png'
 import Tamara from '../../data/people/Tamara.png'
 import Melania from '../../data/people/Melania.png'
+import Egor from '../../data/people/Egor.png'
 import Olymp1 from '../../data/olymp.jpg'
 import Teacher1 from '../../data/teacher.png'
 
@@ -90,8 +91,8 @@ const Home = () => {
                     <img src={Melania}></img>
                     <div className={styles.person_text}>
                         <h2>Меланья Ремета</h2>
-                        <p className={styles.person_subject}>Литература, искусство, итальянский язык</p>
-                        <p>Победитель ВСОШ по искусству и дважды призер по литературе</p>
+                        <p className={styles.person_subject}>Литература, МХК, итальянский язык</p>
+                        <p>Победитель ВСОШ по искусству и дважды призер по литературе, поступила в НИУ ВШЭ на ОП Медиакоммуникации</p>
                         <a href='https://t.me/melagnese_pr' target="_blank" rel="noopener noreferrer">Контакт</a>
                         <a href='https://t.me/melagnese' target="_blank" rel="noopener noreferrer">TG-Channel - "Мелиссовый чай"</a>
                     </div>
@@ -101,19 +102,19 @@ const Home = () => {
                     <div className={styles.person_text}>
                         <h2>Тамара Еремина</h2>
                         <p className={styles.person_subject}>Право</p>
-                        <p>Дважды победитель ВсОШ по праву, ПиП перечневых олимпиад по праву</p>
+                        <p>Дважды победитель ВсОШ по праву, призёр и победитель перечневых олимпиад по праву</p>
                         <a href='https://t.me/Ego_sum_causidicum' target="_blank" rel="noopener noreferrer">Контакт</a>
                         <a href='https://t.me/IL_TTO' target="_blank" rel="noopener noreferrer">TG-Channel - "Innovative Law | TTO"</a>
                     </div>
                 </div>
                 <div className={styles.person}>
-                    <img src={Olymp1}></img>
+                    <img src={Egor}></img>
                     <div className={styles.person_text}>
-                        <h2>Имя Фамилия</h2>
-                        <p className={styles.person_subject}>Предмет 1, предмет 2, предмет 3</p>
-                        <p>Описание описание описание описание описание</p>
-                        <a href='' target="_blank" rel="noopener noreferrer">Контакт</a>
-                        <a href='' target="_blank" rel="noopener noreferrer">TG-Channel - "Название"</a>
+                        <h2>Егор Салимзянов</h2>
+                        <p className={styles.person_subject}>Экология, биология</p>
+                        <p>Призёр ЗЭ ВсОШ по экологии, более 10 лет опыта работы с проектами, основатель одного из крупнейших сообществ олимпиадников в телеграм</p>
+                        <a href='https://t.me/stendhalsnightmare' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='https://t.me/oooooootschet' target="_blank" rel="noopener noreferrer">TG-Channel - "Олимпиадный Отсчёт"</a>
                     </div>
                 </div>
                 <div className={styles.person}>
