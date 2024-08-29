@@ -21,7 +21,7 @@ const Home = () => {
         <div className={styles.container_main}>
             <div className={styles.main_text}>
                 <div className={styles.outline}><h1><span className={styles.highlight}>Забота</span>ть</h1></div>
-                <h2 style={{ textAlign: 'right' }}>о психологическом здоровье<br/> олимпидаников</h2>
+                <h2 style={{ textAlign: 'right' }}>о психологическом здоровье<br/> олимпиадников</h2>
             </div>
             <img src={Planet}></img>
         </div>
