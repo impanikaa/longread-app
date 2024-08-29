@@ -13,6 +13,7 @@ import Egor from '../../data/people/Egor.png'
 import Vitaliy from '../../data/people/Vitaliy.png'
 import Nikolay from '../../data/people/Nikolay.png'
 import Margarita from '../../data/people/Margarita.png'
+import Anna from '../../data/people/Anna.png'
 
 const Home = () => {
     return (
@@ -133,8 +134,8 @@ const Home = () => {
 
         <div className={styles.container_people}>
             <h3>Преподаватели</h3>
-            <div className={styles.people_block}>
-                <div className={styles.person}>
+            <div className={styles.people_block_1}>
+                <div className={styles.person_1}>
                     <img src={Nikita}></img>
                     <div className={styles.person_text}>
                         <h2>Никита Киселев</h2>
@@ -143,17 +144,29 @@ const Home = () => {
                         <a href='https://stankevich.academy/' target="_blank" rel="noopener noreferrer">Курсы "Кружок Станкевича" (литература и история)</a>
                     </div>
                 </div>
-                <div className={styles.person}>
+                <div className={styles.person_1}>
                     <img src={Tatiana}></img>
                     <div className={styles.person_text}>
                         <h2>Татьяна Завьялова</h2>
                         <p className={styles.person_subject}>Математика, экономика</p>
                         <p>Кандидат экономических наук, репетитор. Проходила стажировку в ОЦ Сириус на математической смене.</p>
-                        <a href='https://t.me/Zav_Tatiana' target="_blank" rel="noopener noreferrer">Контакт</a>
+                        <a href='https://t.me/Zav_Tatiana' target="_blank" rel="noopener noreferrer">Контакт (тг)</a>
                         <a href='https://t.me/lite_math' target="_blank" rel="noopener noreferrer">TG-Channel - "Учится лёгким испугом"</a>
                     </div>
                 </div>
-                <div className={styles.person}>
+                <div className={styles.person_1}>
+                    <img src={Anna}></img>
+                    <div className={styles.person_text}>
+                        <h2>Анна Шишкина</h2>
+                        <p className={styles.person_subject}>Физика, астрономия</p>
+                        <p>Член жюри финалов ВсОШ по физике и астрономии, член жюри ISPhO и APhB</p>
+                        <a href='https://vk.com/shafaf' target="_blank" rel="noopener noreferrer">Контакт (ВК)</a>
+                        <a href='https://t.me/shaf_phis' target="_blank" rel="noopener noreferrer">TG-Channel - "С любовью к физике"</a>
+                    </div>
+                </div>
+            </div>
+            <div className={styles.people_block_2}>
+                <div className={styles.person_2}>
                     <img src={Vitaliy}></img>
                     <div className={styles.person_text}>
                         <h2>Виталий Буев</h2>
@@ -165,7 +178,7 @@ const Home = () => {
                         <a href='https://www.atriumolymp.com/' target="_blank" rel="noopener noreferrer">Курсы Атриума</a>
                     </div>
                 </div>
-                <div className={styles.person}>
+                <div className={styles.person_2}>
                     <img src={Nikolay}></img>
                     <div className={styles.person_text}>
                         <h2>Николай Мещеряков</h2>
